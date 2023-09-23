@@ -1,0 +1,33 @@
+ #P1{
+    font-family: Times New Roman;
+   font-size: xx-large;
+ }
+
+#P2{
+    font-family: Times, serif;
+    font-size:  3em;
+ }
+
+ #P3{
+    font-family: Franklin Gothic Medium;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+ }
+
+
+ #P4{
+    font-family:Impact,;
+    font-size: 55px;
+    text-align: right;
+ }
+
+ #P5{
+    font-family: Arial;
+   font-size: 40px;
+   text-align: center;
+ }
+ body{
+
+    background-color: aquamarine;
+ }
