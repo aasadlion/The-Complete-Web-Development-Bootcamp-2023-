@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> grid Placement</title>
+
+        <style>
+
+.container{
+
+    display: grid;
+    height: 100vh;
+    gap: 3rem;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr;
+
+}
+
+.items{
+
+background-color: cornflowerblue;
+font-size: 5rem;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+    </style>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="items">🤠</div>
+            <div class="items">👨‍🚀</div>
+            <div class="items">📖</div>
+        </div>
+    </body>
+</html>
