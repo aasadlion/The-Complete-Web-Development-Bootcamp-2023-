@@ -1,0 +1,55 @@
+body{
+
+ margin: 0;
+text-align: center;
+
+}
+
+.header{
+
+
+
+    background-color: #e4f9f5;
+}
+
+.cloud-top{
+ 
+position: relative;
+
+text-align: end;
+right: 300px;
+top: 40px;
+
+
+
+}
+
+.Title{
+color: #66bfbf;
+font-size: 3rem;
+font-weight: 700;
+ text-align: center;
+font-family: "Sacramento", cursive;
+margin-top: 100px;
+
+}
+
+
+.title2{
+font-size: 40px;
+font-weight: 400;
+color: #66bfbf;
+font-family: sans-serif;
+text-decoration: overline;
+}
+.cloud-bottom{
+
+position: relative;
+right: 300px;
+top: 40px;
+   
+  
+ 
+
+
+}
