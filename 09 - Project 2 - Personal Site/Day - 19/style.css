@@ -47,9 +47,28 @@ text-decoration: overline;
 position: relative;
 right: 300px;
 top: 40px;
-   
-  
- 
+
+}
+
+
+.profile-image{
+margin-top: 100px;
+border-radius: 50%;
+
+}
+
+.about-title{
+    color: #66bfbf;
+    font-family: sans-serif;
+    font-size: 40px;
+font-weight: 400;
+}
+
+.para{
+font-size: 18px;
+    font-family: sans-serif;
+   color:  rgb(64, 81, 78);
+    line-height: 30px;
 
 
 }
