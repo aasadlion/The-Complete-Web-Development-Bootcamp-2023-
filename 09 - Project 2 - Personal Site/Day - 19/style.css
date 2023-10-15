@@ -34,6 +34,29 @@ margin-top: 100px;
 
 }
 
+.btn-text{
+
+text-transform: capitalize;
+font-family: sans-serif;
+ text-decoration: none;
+color: white;
+font-size: 20px;
+}
+.btn1{
+
+background-color: #66bfbf;
+padding: 15px 50px 15px 50px;
+
+border: #e4f9f5 2px solid;
+border-radius: 10px;
+}
+
+.btn1:hover{
+
+background-color:gray;
+color: #66bfbf;
+}
+
 
 .title2{
 font-size: 40px;
@@ -48,6 +71,37 @@ position: relative;
 right: 300px;
 top: 40px;
 
+}
+
+.btn2{
+   
+    background-color: #e4f9f5;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+.btn2 a{
+   
+    color: #66bfbf;   
+}
+.btn2 a:hover{
+   
+    color: white;
+}
+
+.btn-outline{
+
+   border: 2px solid #66bfbf;
+    color: #ffffff;
+}
+
+.btn-outline:hover{
+
+    background-color: #66bfbf;
+ color: white;
 }
 
 
@@ -72,3 +126,30 @@ font-size: 18px;
 
 
 }
+
+.myskills{
+
+
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.skills-list{
+
+display: flex;
+flex-direction: row ;
+
+justify-content:space-evenly;
+
+}
+
+
+.skills-image{
+
+    border-radius: 50%;
+}
+
