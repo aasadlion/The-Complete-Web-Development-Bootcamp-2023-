@@ -1,5 +1,3 @@
-# The Web Developer Bootcamp 2023 <br>
-
 ### This is all about the portfolio website Projects are live you can click visit these links! <br>
 
 01 - https://birthday-invite-website.vercel.app/ <br>
