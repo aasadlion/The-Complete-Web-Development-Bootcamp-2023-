@@ -10,5 +10,5 @@
 
 let shopping=["Milk","Bread","Apples"];
 console.log(shopping.length)
-shopping.splice(1,1,"Bananas");
-console.log(shopping)
+shopping[1]="Bananas"
+console.log(shopping);
