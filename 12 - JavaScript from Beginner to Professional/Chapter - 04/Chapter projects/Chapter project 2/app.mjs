@@ -28,8 +28,33 @@ var prompt =PromptSync();
 let selection=["Paper","Rock","Scissors"];
 let randomNumberGenerate=randomInteger(0,2);
 let computerChoose=selection[randomNumberGenerate]
+let realPlayer=selection[prompt("0 for Paper 1 for Rock 2 for Scissors ")];
+let overcome="Ready to play";
 
+console.log(overcome);
+if (realPlayer == computerChoose) {
+    overcome="Draw";
+} else if(computerChoose==="Rock" && realPlayer==="Scissors"){
 
+    overcome="Computer win!";
+} else if(computerChoose==="Scissors" && realPlayer==="Rock"){
+    overcome="Player win!";
+} else if(computerChoose==="Paper" && realPlayer==="Rock"){
+    overcome="Computer win!";
+}
+else if(computerChoose==="Rock" && realPlayer==="Paper"){
+    overcome="Player win!";
+} else if(computerChoose==="Scissors" && realPlayer==="Paper"){
+    overcome="Computer win!";
+} else if(computerChoose==="Paper" && realPlayer==="Scissors"){
+    overcome=" Player win!";
+}
+else{
+    overcome=" please Choose 0 for Paper 1 for Rock 2 for Scissors ";
+}
 
-console.log(computerChoose);
-
+console.log(`Computer Choose ${computerChoose}`);
+console.log(`Real player Choose ${realPlayer}`);
+console.log("-----------------------------------------------------------")
+console.log(overcome);
+console.log("-----------------------------------------------------------")
