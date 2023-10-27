@@ -1,11 +1,15 @@
 {
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "random-int": "^3.0.0"
+  },
   "name": "chapter-project-2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

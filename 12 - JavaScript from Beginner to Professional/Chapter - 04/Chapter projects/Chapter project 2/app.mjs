@@ -20,3 +20,16 @@
 // accordingly, with the exception of Rock beating Scissors.
 // 6. Add a new output message that shows the player selection versus the 
 // computer selection and the result of the game
+
+import randomInteger from "random-int";
+import PromptSync from "prompt-sync";
+
+var prompt =PromptSync();
+let selection=["Paper","Rock","Scissors"];
+let randomNumberGenerate=randomInteger(0,2);
+let computerChoose=selection[randomNumberGenerate]
+
+
+
+console.log(computerChoose);
+
